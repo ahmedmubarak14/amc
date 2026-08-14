@@ -4,15 +4,15 @@ const serviceGroups = [
     title: "Travel",
     note: "From departure to arrival",
     items: ["Commercial flights", "Private jet charter", "Train bookings", "Meet & assist", "Visa support"],
-    image: "/images/private-aviation.jpg",
-    alt: "Private aircraft prepared for departure",
+    image: "/images/meet-assist-v3.jpg",
+    alt: "Concierge awaiting a private guest in a premium airport terminal",
   },
   {
     number: "02",
     title: "Stays",
     note: "Selected around you",
     items: ["Hotels", "Private villas", "Serviced residences", "Bespoke itineraries"],
-    image: "/images/luxury-stays.jpg",
+    image: "/images/stay-v3.jpg",
     alt: "Private residence overlooking the coast",
   },
   {
@@ -20,7 +20,7 @@ const serviceGroups = [
     title: "On the ground",
     note: "Every movement coordinated",
     items: ["Chauffeur services", "Airport transfers", "Personal security", "Local arrangements"],
-    image: "/images/chauffeur.jpg",
+    image: "/images/ground-v3.jpg",
     alt: "Chauffeured car awaiting a guest",
   },
   {
@@ -28,7 +28,7 @@ const serviceGroups = [
     title: "Lifestyle",
     note: "Personal requests, handled",
     items: ["Dining reservations", "Lifestyle requests", "Butler services", "24/7 personal support"],
-    image: "/images/dining.jpg",
+    image: "/images/dining-v3.jpg",
     alt: "Private dining setting prepared for guests",
   },
 ];
@@ -73,7 +73,7 @@ export default function Home() {
           <p>From worldwide travel and private aviation to accommodation, transportation, dining, lifestyle requests and personal support, every detail is carefully coordinated around you.</p>
         </div>
         <div className="manifestoImage">
-          <img src="/images/lifestyle.jpg" alt="Concierge preparing a private guest experience" />
+          <img src="/images/personal-support-v3.jpg" alt="Concierge preparing a private guest suite" />
           <div className="imageCaption"><span>Personal attention</span><span>Worldwide service</span></div>
         </div>
         <div className="signature"><span>AM</span><p>Personal.<br />Discreet.<br />Worldwide.</p></div>
@@ -99,7 +99,7 @@ export default function Home() {
       </section>
 
       <section className="supportFeature">
-        <div className="supportImage supportImageOne"><img src="/images/meet-assist.jpg" alt="Personal meet and assist on arrival" /></div>
+        <div className="supportImage supportImageOne"><img src="/images/meet-assist-v3.jpg" alt="Personal meet and assist on arrival" /></div>
         <div className="supportCopy">
           <div className="sectionLabel"><span>03</span> The AM way</div>
           <p className="overline dark">Present when it matters</p>
@@ -107,7 +107,7 @@ export default function Home() {
           <p>However simple or complex the request, AM remains a single, trusted point of contact—before, during and after every journey.</p>
           <a className="lineLink darkLink" href="mailto:am@amconcierge.co">Speak with AM <span>↗</span></a>
         </div>
-        <div className="supportImage supportImageTwo"><img src="/images/security.jpg" alt="Discreet personal support for a private client" /></div>
+        <div className="supportImage supportImageTwo"><img src="/images/personal-support-v3.jpg" alt="Discreet personal support for a private client" /></div>
       </section>
 
       <section className="values" aria-label="AM service principles">
