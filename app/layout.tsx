@@ -4,18 +4,18 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://am-concierge-worldwide.ahmedmubaraks.chatgpt.site"),
   title: "AM Concierge | The Art of Movement",
-  description: "Private concierge and lifestyle support for seamless travel, stays and personal arrangements worldwide.",
+  description: "From the everyday to the exceptional, handled personally, discreetly and worldwide.",
   openGraph: {
     title: "AM Concierge | The Art of Movement",
-    description: "Private concierge, wherever you are.",
+    description: "Everything, handled. Personally, discreetly and worldwide.",
     type: "website",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "AM Concierge - Private concierge, wherever you are" }],
+    images: [{ url: "/og-v4.png", width: 1200, height: 630, alt: "AM Concierge - Everything, handled" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "AM Concierge | The Art of Movement",
-    description: "Private concierge, wherever you are.",
-    images: ["/og.png"],
+    description: "Everything, handled. Personally, discreetly and worldwide.",
+    images: ["/og-v4.png"],
   },
   icons: {
     icon: "/images/am-logo.png",
